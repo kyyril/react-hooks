@@ -1,9 +1,11 @@
-import './App.css'
-
+import "./App.css";
+import UseState from "./components/useState";
 function App() {
   return (
-    <div>halo dunia</div>
-  )
+    <>
+      <UseState />
+    </>
+  );
 }
 
-export default App
+export default App;
