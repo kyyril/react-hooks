@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Todos from "../components/todos";
 
+//useEffect itu asyncronous
 const UseEffect = () => {
   const [count, setCount] = useState(0);
   const [count2, setCount2] = useState(1);
