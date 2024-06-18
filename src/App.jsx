@@ -1,9 +1,14 @@
-import './App.css'
+import "./App.css";
+import UseState from "./hooks/useState";
+import UseReducer from "./hooks/useReducer";
 
 function App() {
   return (
-    <div>halo dunia</div>
-  )
+    <>
+      <UseState />
+      <UseReducer />
+    </>
+  );
 }
 
-export default App
+export default App;
