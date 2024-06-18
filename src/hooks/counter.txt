@@ -1,0 +1,27 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import { useState } from "react";
+
+const UseEffect = () => {
+  const [state, setState] = useState(0);
+
+  const handleDecrement = () => {
+    const newCount = state - 1;
+    setState(newCount);
+  };
+  const handleIncrement = () => {
+    const newCount = state + 1;
+    setState(newCount);
+  };
+
+  return (
+    <div className="container">
+      <div className="hooks">UseEffect</div>
+      <button onClick={handleDecrement}>- decrement</button>
+      <div>{state}</div>
+      <button onClick={handleIncrement}>+ increment</button>
+    </div>
+  );
+};
+
+export default UseEffect;
