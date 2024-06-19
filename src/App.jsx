@@ -5,6 +5,7 @@ import UseEffect from "./hooks/useEffect";
 import UseLayoutEffect from "./hooks/useLayoutEffect";
 import UseContext from "./hooks/useContext";
 import UseRef from "./hooks/UseRef";
+import UseImperativeHandle from "./hooks/UseImperativeHandle";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <UseReducer />
       <UseEffect />
       <UseLayoutEffect />
-      <UseContext /> */}
-      <UseRef/>
+      <UseContext />
+      <UseRef/> */}
+      <UseImperativeHandle/>
     </>
   );
 }
