@@ -7,7 +7,7 @@ import UseContext from "./hooks/useContext";
 import UseRef from "./hooks/UseRef";
 import UseImperativeHandle from "./hooks/UseImperativeHandle";
 import UseMemo from "./hooks/UseMemo";
-
+import UseDebugValue from "/\./hooks/UseDebugValue"
 function App() {
   return (
     <>
@@ -19,6 +19,8 @@ function App() {
       <UseRef/> */}
       {/* <UseImperativeHandle />
       <UseMemo/> */}
+      <UseDebugValue/>
+
     </>
   );
 }
