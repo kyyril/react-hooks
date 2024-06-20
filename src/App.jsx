@@ -10,6 +10,7 @@ import UseMemo from "./hooks/UseMemo";
 import UseDebugValue from "./hooks/UseDebugValue"
 import UseCallback from "./hooks/UseCallback";
 import UseId from "./hooks/UseId";
+import CustomHook from "./hooks/CustomHook"
 
 function App() {
   return (
@@ -19,12 +20,13 @@ function App() {
       <UseEffect />
       <UseLayoutEffect />
       <UseContext />
-      <UseRef/> */}
-      {/* <UseImperativeHandle />
-      <UseMemo/> */}
-      {/* <UseDebugValue /> */}
-      {/* <UseCallback />
-      <UseId /> */}
+      <UseRef/>
+      <UseImperativeHandle />
+      <UseMemo/>
+      <UseDebugValue />
+      <UseCallback />
+      <UseId />
+      <CustomHook /> */}
     </>
   );
 }
