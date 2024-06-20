@@ -9,6 +9,8 @@ import UseImperativeHandle from "./hooks/UseImperativeHandle";
 import UseMemo from "./hooks/UseMemo";
 import UseDebugValue from "./hooks/UseDebugValue"
 import UseCallback from "./hooks/UseCallback";
+import UseId from "./hooks/UseId";
+
 function App() {
   return (
     <>
@@ -21,8 +23,8 @@ function App() {
       {/* <UseImperativeHandle />
       <UseMemo/> */}
       {/* <UseDebugValue /> */}
-      <UseCallback />
-
+      {/* <UseCallback />
+      <UseId /> */}
     </>
   );
 }
